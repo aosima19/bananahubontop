@@ -1,6 +1,6 @@
 repeat wait()
 until game:IsLoaded()
-local TableChat = {""}
+local TableChat = {"game rac"}
 spawn(function()
     while wait() do 
         pcall(function()
@@ -28,7 +28,7 @@ getgenv().Setting = {
     ["SafeZone"] = {
         ["Enable"] = true,
         ["LowHealth"] = 1500,
-        ["MaxHealth"] = 2000,
+        ["MaxHealth"] = 3500,
         ["Teleport Y"] = 2000
     },
     ["Race V4"] = {
@@ -45,16 +45,16 @@ getgenv().Setting = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.11,
+                    ["HoldTime"] = 0.3,
                 },
                [ "X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.14,
+                    ["HoldTime"] = 0.3,
                 },
 
                 ["C"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1.6,
+                    ["HoldTime"] = 0.3,
                 },
             },
         },
@@ -68,7 +68,7 @@ getgenv().Setting = {
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.3,
+                    ["HoldTime"] = 1.1,
                 },
 
                 ["C"] = {
@@ -91,11 +91,11 @@ getgenv().Setting = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = false,
-                    ["HoldTime"] = 0.7,
+                    ["HoldTime"] = 0.3,
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.7,
+                    ["HoldTime"] = 0.3,
                 },
             },
         },
